@@ -1,0 +1,16 @@
+
+
+#topnav {
+    display: flex;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.center img {
+    padding-top: 20%;
+    width: 20%;
+}
