@@ -1,8 +1,22 @@
-
-
 #topnav {
     display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: auto;
+}
 
+#topnav i {
+    padding: 10px;
+    text-decoration: none;
+}
+
+#topnav a {
+    padding: 0px 5px 0px 5px;
+}
+
+.topright {
+    margin-left: auto;
+    
 }
 
 .center {
