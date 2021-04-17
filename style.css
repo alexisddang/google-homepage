@@ -1,23 +1,60 @@
+/*START TOP NAVBAR*/
 #topnav {
     display: flex;
     align-items: center;
-    width: 100%;
-    overflow: auto;
-}
+    width: auto;
+    overflow-x: hidden;
+    padding: 0px 6px 0px 18px;
+} 
 
-#topnav i {
-    padding: 10px;
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     text-decoration: none;
+    color: black;
 }
+.text:hover {
+    text-decoration: underline;
+} /*Text link animations*/
 
-#topnav a {
-    padding: 0px 5px 0px 5px;
-}
+.topleft {
+    padding-right: 20px;
+} 
 
-.topright {
+.material-icons:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 50%;
+} /*Icon link animations*/
+
+#topright {
+    display: flex;
+    align-items: center;
     margin-left: auto;
-    
 }
+#topright a {
+    font-size: 13px;
+}
+.toprighttext {
+    padding: 0px 0px 1px 15px;
+}
+#righticons {
+    display: flex;
+    align-items: center;
+    padding-left: 21px;
+}
+#appslink {
+    padding-right: 10px;
+}
+#prolink {
+    padding-top: 2px;
+}
+#appsicon {
+    padding: 6px;
+}
+#proicon {
+    padding: 1px;
+} 
+/*END TOP NAVBAR*/
 
 .center {
     display: flex;
@@ -26,5 +63,5 @@
 
 .center img {
     padding-top: 20%;
-    width: 20%;
+    width: auto;
 }
