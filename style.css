@@ -63,15 +63,7 @@ a {
     width: 100%;
     min-height: 94px;
     height: 32vh;
-  height: 290px;
-
-}
-
-#logo {
-    display: flex;
-height: 100%;
-max-height: 290px;
-align-items: flex-end;
+    max-height: 290px;
 }
 
 #logo img {
