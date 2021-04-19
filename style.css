@@ -1,9 +1,21 @@
+body, html {
+    height: 100vh;
+}
+
+#google {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 /*START TOP NAVBAR*/
 #topnav {
     display: flex;
+    flex-shrink: 0;
     align-items: center;
     width: auto;
-    overflow-x: hidden;
+    height: 43px;
+    overflow: hidden;
     padding: 8px 14px 8px 26px;
 } 
 
@@ -22,7 +34,7 @@ a {
 } 
 
 .material-icons:hover {
-    background-color: rgba(0, 0, 0, 0.08);
+    background-color: rgba(0, 0, 0, 0.06);
     border-radius: 50%;
 } /*Icon link animations*/
 
@@ -61,14 +73,16 @@ a {
     flex-direction: column-reverse;
     align-items: center;
     width: 100%;
-    min-height: 94px;
-    height: 32vh;
+    min-height: 92px;
+    height: calc(100% - 556px);
     max-height: 290px;
+}
+
+#logo {
+    min-height: 94px;
 }
 
 #logo img {
     width: 272px;
 }
-
-
 
