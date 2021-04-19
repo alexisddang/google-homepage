@@ -56,12 +56,12 @@ a {
 } 
 /*END TOP NAVBAR*/
 
-.center {
+.logo {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
-.center img {
-    padding-top: 20%;
-    width: auto;
+.logo img {
+    width: 272px;
 }
