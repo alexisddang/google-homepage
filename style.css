@@ -33,7 +33,7 @@ a {
     padding-right: 20px;
 } 
 
-.material-icons:hover {
+#appsicon:hover, #proicon:hover {
     background-color: rgba(0, 0, 0, 0.06);
     border-radius: 50%;
 } /*Icon link animations*/
@@ -68,6 +68,7 @@ a {
 } 
 /*END TOP NAVBAR*/
 
+/*START GOOGLE LOGO*/
 #logocontainer {
     display: flex;
     flex-direction: column-reverse;
@@ -84,5 +85,44 @@ a {
 
 #logo img {
     width: 272px;
+}
+/*END GOOGLE LOGO*/
+
+
+#searchcontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#searchbar {
+    width: 492px;
+    height: 42px;
+    border-radius: 42px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    margin-top: 23px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#searchbar:focus {
+    outline: none;
+}
+
+#searchbar:hover {
+    box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.2);
+}
+
+#searchicon {
+    position: absolute;
+    margin-top: 36px;
+    margin-right: 534px;
+}
+
+#micicon {
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 542px;
 }
 
