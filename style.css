@@ -68,7 +68,7 @@ a {
 } 
 /*END TOP NAVBAR*/
 
-/*START GOOGLE LOGO*/
+/*START LOGO*/
 #logocontainer {
     display: flex;
     flex-direction: column-reverse;
@@ -86,9 +86,9 @@ a {
 img {
     width: 272px;
 }
-/*END GOOGLE LOGO*/
+/*END LOGO*/
 
-
+/*START SEARCH*/
 #searchcontainer {
     display: flex;
     flex-direction: row;
@@ -136,10 +136,36 @@ input:focus {
     position: relative;
     left: 30px;
 }
+/*END SEARCH*/
 
+/*START BUTTONS*/
+#buttoncontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+}
 
+#searchbutton, #luckybutton {
+    height: 35px;
+    padding: 0px 18px 0px 18px;
+    margin: 0px 5px 0px 5px;
+    background-color: rgba(0, 0, 0, 0.025);
+    border-style: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+}
 
-
+button:focus {
+    outline: none;
+}
+#searchbutton:hover, #luckybutton:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+/*END BUTTONS*/
 
 
 
